@@ -13,4 +13,4 @@ df_second_shift = pd.read_excel(excel_file_1, sheet_name='Sheet2')
 df_third_shift = pd.read_excel(excel_file_2)  # Reads first sheet by default
 
 # pip3 install xlrd (if needed)
-print(df_first_shift)
+#print(df_first_shift)
