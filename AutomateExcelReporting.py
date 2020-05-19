@@ -10,14 +10,14 @@ excel_file_2 = '4564564656.xls'
 # Create Data-Frames for each excel sheet:
 df_first_set = pd.read_excel(excel_file_1, sheet_name='Side_View')
 df_second_set = pd.read_excel(excel_file_1, sheet_name='Side_View')
-# df_third_shift = pd.read_excel(excel_file_2)  # Reads first sheet by default
+# df_third_set = pd.read_excel(excel_file_2)  # Reads first sheet by default
 
 #======================================
 
 # pip3 install xlrd, openpyxl (if needed)
 # Check:
-# print(df_first_shift)
-# print(df_first_shift['Product'])
+# print(df_first_set)
+# print(df_first_set['Avg.Dev.'])
 
 
 # concat function joins all of the values where the column heading is the same
